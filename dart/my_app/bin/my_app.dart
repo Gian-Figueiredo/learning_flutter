@@ -1,3 +1,7 @@
+import 'dart:io';
+
 void main() {
-  print("reali eh gay");
+  print('Olá meu CUrioso guerreiro, qual seu nome?');
+  var nome =  stdin.readLineSync();
+  print('Prazer $nome, sou Caio Pinto');
 }
