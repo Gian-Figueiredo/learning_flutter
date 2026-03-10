@@ -9,7 +9,13 @@ Then, run the "dart create project" command to create a Dart project.
 ```Dart
 print(Object object) // Print a line text in terminal
 
+import dart:io // Imports a standard library for interaction with the operating system.
 
+stdin.readLineSync() // Read an input (Dart:io lib required)
+
+= // Attribution operator
+
+'Interpolation $variable' // String interpolation
 ```
 
 ### Observações
